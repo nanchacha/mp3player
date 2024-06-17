@@ -3,7 +3,7 @@ import os
 from mutagen.mp3 import MP3
 
 # MP3 파일이 저장된 디렉토리 경로
-MP3_DIR = "C:/Users/csw44/Downloads/"
+MP3_DIR = "./files"
 
 def list_mp3_files(directory):
     """주어진 디렉토리 내의 MP3 파일 리스트를 반환"""
